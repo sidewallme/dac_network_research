@@ -3,13 +3,13 @@
 #### /DAC-Graph-Library
 - papers.pkl <- build\_papers\_dict.py
   + DAC\_Entire\_DataBase.json
-  + titlelist.txt <- helpers/generate\_corpus.py
+  + titlelist.txt <- /data_generation_helper/generate\_corpus.py
   + phrase\_topic\_modelling\_results/outputFiles/document\_topic\_distribution.txt
-  + paperid\_titles\_map.csv <- helpers/paperIDmap.py
-  + authors\_papers\_map.csv <- helpers/authorPaperMap.py
+  + paperid\_titles\_map.csv <- /data_generation_helper/paperIDmap.py
+  + authors\_papers\_map.csv <- /data_generation_helper/authorPaperMap.py
 
 - authors.pkl <- build\_authors.py
-  + author\_coauthor\_paper\_map.csv <- helpers/coauthorMap.py
+  + author\_coauthor\_paper\_map.csv <- /data_generation_helper/coauthorMap.py
   + papers.pkl
 
 - authors\_test.json <- build\_authors\_json.py
