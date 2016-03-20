@@ -1,0 +1,129 @@
+340	1627	Olivier L. de Weck	Olivier de Weck
+348	141	Brandon Haley	Brandon M. Haley
+2313	553	O. Ma	Ou Ma
+298	1380	Jeremy J. Michalek	Jeremy Michalek
+295	2287	Matthew I. Campbell	Matthew Campbell
+2262	2017	David C. Anderson	David Anderson
+2260	1831	Kurt A. Chipperfield	Kurt Chipperfield
+104	45	Scott Ferguson	Scott M. Ferguson
+1626	1318	Tucker Marion	Tucker J. Marion
+1624	2341	Ali Farhang Mehr	Ali Farhang-Mehr
+1624	2063	Ali Farhang Mehr	A. Farhang-Mehr
+1629	1020	Steve B. Shooter	Steven B. Shooter
+1190	70	Kemper E. Lewis	Kemper Lewis
+1756	1498	Nam H. Kim	Nam-Ho Kim
+1756	675	Nam H. Kim	Nam Ho Kim
+1179	1501	Sanghon Lee	Sang Hoon Lee
+511	766	David Romero	David A. Romero
+1288	1044	V. Krishnamurthy	Vivek Krishnamurthy
+514	915	Cristina Amon	Cristina H. Amon
+685	214	Matthew Parkinson	Matthew B. Parkinson
+684	888	Christopher Garneau	Christopher J. Garneau
+405	1118	Jianxin (Roger) Jiao	Jianxin Roger Jiao
+1377	1713	Ashwin P. Gurnani	Ashwin Gurnani
+1378	742	Ian H. Tseng	Ian Tseng
+454	7	Mohamed F. Aly	Mohamed Aly
+390	181	David W. Shahan	David Shahan
+2278	1820	A. Boyars	Art Boyars
+179	1589	Carolyn C. Seepersad	Carolyn Conner Seepersad
+179	440	Carolyn C. Seepersad	Carolyn Seepersad
+176	1735	David W. Rosen	David Rosen
+172	168	Jitesh H. Panchal	Jitesh Panchal
+1501	1051	Sang Hoon Lee	Sanghoon Lee
+1970	2254	Alice M. Agogino	Alice Agogino
+1767	500	Stella Maris Oggianu	Stella Oggianu
+1146	564	Paul Arendt	Paul D. Arendt
+1144	489	Steven Greene	M. Steven Greene
+547	706	Richard Crawford	Richard H. Crawford
+1787	1165	S. Manoochehri	Souran Manoochehri
+1382	628	Andrew T. Olewnik	Andrew Olewnik
+369	2081	Mohammed Shalaby	Mohamed M. Shalaby
+381	383	Adel A. Younis	Adel Younis
+250	257	Matthew P. Castanier	Matthew Castanier
+256	934	David Gorsich	David J. Gorsich
+255	447	Annette Skowronska	Annette G. Skowronska
+2202	2251	I. HorvÃ¡th	Imre HorvÃ¡th
+165	443	Nagesh Kulkarni	Nagesh H. Kulkarni
+162	1358	Joshua D. Summers	Joshua Summers
+1814	1481	Lianfeng Zhang	Linda Lianfeng Zhang
+1810	1520	Janis Terpenny	Janis P. Terpenny
+1774	1025	Samuel Drake	Sam Drake
+1157	626	Judy M. Vance	Judy Vance
+59	63	Mohamed El Morsi	Mohamed El-Morsi
+2182	1128	Kenneth Chase	Kenneth W. Chase
+227	471	G. Gary Wang	Gary Wang
+151	459	Eliot H. Winer	Eliot Winer
+1544	1317	Sanjay Joshi	Sanjay B. Joshi
+1498	675	Nam-Ho Kim	Nam Ho Kim
+1395	281	Brendan J. Oâ€™Toole	Brendan Oâ€™Toole
+1994	1022	David Johnson	David E. Johnson
+1128	1843	Kenneth W. Chase	Ken W. Chase
+521	929	Kate S. Whitefoot	Katie Whitefoot
+521	713	Kate S. Whitefoot	Kate Whitefoot
+1235	1958	Peter Fenyes	Peter A. Fenyes
+1230	968	Mustafa H. Arafa	Mustafa Arafa
+1239	2293	Matthew P. Reed	Matthew Reed
+239	1096	J. M. Hamel	J. Hamel
+2224	2076	Sinobu Yoshimura	Shinobu Yoshimura
+2225	1680	Li-jun Wang	Lijun Jiang
+1	1466	Shintaro Yamasaki	Shintarou Yamasaki
+147	304	Gary Stump	Gary M. Stump
+143	1661	Irem Y. Tumer	Irem Tumer
+1832	1455	T. R. Langerak	Thomas R. Langerak
+936	582	Vincent Y. Blouin	Vincent Blouin
+1485	330	Yoo Suk Hong	Yoo S. Hong
+1719	736	Magnus Thor Jonsson	Magnus Th. Jonsson
+519	317	Erin F. MacDonald	Erin MacDonald
+12	970	Ashraf O. Nassef	Ashraf Nassef
+201	839	Georges Fadel	George Fadel
+201	561	Georges Fadel	Georges M. Fadel
+209	2033	Joseph K. Davidson	J. K. Davidson
+208	2098	Jami J. Shah	Jami Shah
+208	2034	Jami J. Shah	J. J. Shah
+1575	1400	Sundar Krishnamurty	Sundar Krishnamurthy
+2090	1891	Bianca Facidieno	Bianca Falcidieno
+929	713	Katie Whitefoot	Kate Whitefoot
+921	311	Bryony L. Du Pont	Bryony L. DuPont
+1924	2061	Rajul Misra	Raj Mishra
+839	561	George Fadel	Georges M. Fadel
+60	64	Sayed M. Metwalli	Sayed Metwalli
+1589	440	Carolyn Conner Seepersad	Carolyn Seepersad
+1032	321	Bart Frischknecht	Bart D. Frischknecht
+632	187	Richard J. Malak	Richard J. Malak, Jr.
+1216	917	Ching-Shin Shiau	Ching-Shin Norman Shiau
+211	615	Sangwon Lee	Sang Won Lee
+840	1090	John C. Ziegert	John Ziegert
+1739	1257	J. P. Pernot	J.-P. Pernot
+1039	657	Joseph A. Donndelinger	Joseph Donndelinger
+756	1429	Horea T. Ilies	Horea Ilies
+501	1634	Ritesh Khire	Ritesh A. Khire
+1214	702	Jason M. Weaver	Jason Weaver
+487	726	Dmitriy Dikin	Dmitriy A. Dikin
+485	898	Frank W. Liou	Frank Liou
+1354	1432	R.-J. Yang	R. J. Yang
+482	29	Thomas M. Stone	Thomas Stone
+481	307	GÃ_l E. Okudan	GÃ_l E. Okudan Kremer
+1453	1798	Alejandro R. Diaz	Alejandro Diaz
+611	1566	Tobias C. Larsson	Tobias Larsson
+25	1712	James T. Allison	James Allison
+22	1077	Ehsan T. Esfahani	Ehsan Tarkesh Esfahani
+2050	2366	Ram D. Sriram	R. D. Sriram
+887	280	Mohamed B. Trabia	Mohamed Trabia
+77	34	Maria C. Yang	Maria Yang
+1262	1421	Mark Ganter	Mark A. Ganter
+2290	1963	C. G. Jensen	C. Greg Jensen
+969	940	Ayman Youssef	Ayman M. A. Youssef
+9	456	Hesham Hegazi	Hesham A. Hegazi
+1325	1180	Mark F. Horstemeyer	M. F. Horstemeyer
+1254	1427	Joris S. M. Vergeest	J. S. M. Vergeest
+1253	1426	Yu Song	Y. Song
+303	1510	Sara E. Lego	Sara Lego
+2009	1365	Dennis Assanis	Dennis N. Assanis
+1260	1740	J.-C. LÃ©on	J. C. LÃ©on
+36	705	Kristin Wood	Kristin L. Wood
+336	129	Kenneth M. Bryden	Kenneth (Mark) Bryden
+2341	2063	Ali Farhang-Mehr	A. Farhang-Mehr
+1352	1033	P. Papalambros	Panos Papalambros
+1352	43	P. Papalambros	Panos Y. Papalambros
+1516	1568	James H. Oliver	James Oliver
+1033	43	Panos Papalambros	Panos Y. Papalambros
