@@ -1,0 +1,8 @@
+3	James Allison	463	James T. Allison
+5	David J. Gorsich	1759	David Gorsich
+7	J. K. Davidson	567	Joseph K. Davidson
+8	Q. Cheng	608	Heidi Q. Chen
+10	Steve C. Wang	253	C. Wang
+11	Niclas Stromberg	679	Niclas Strömberg
+11	Niclas Stromberg	900	Niclas Strömberg
+679	Niclas Stromberg	900	Niclas Strömberg
