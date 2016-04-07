@@ -1,0 +1,51 @@
+from	to	weight	paper
+1594	1571	10	Identifying Product Scaling Principles: A Tool for Bioinspired Design and Beyond
+1232	1406	10	On Usage Context of Hybrid Electric Vehicles in Choice Studies
+1232	2419	10	On Usage Context of Hybrid Electric Vehicles in Choice Studies
+1406	2419	10	On Usage Context of Hybrid Electric Vehicles in Choice Studies
+468	741	10	Enhanced Targeted Initial Populations for Multiobjective Product Line Optimization
+2464	884	10	Material Characterization of Additively Manufactured Part via Multi-Level Stochastic Upscaling Method
+2464	482	10	Material Characterization of Additively Manufactured Part via Multi-Level Stochastic Upscaling Method
+2464	548	10	Material Characterization of Additively Manufactured Part via Multi-Level Stochastic Upscaling Method
+884	482	10	Material Characterization of Additively Manufactured Part via Multi-Level Stochastic Upscaling Method
+884	548	10	Material Characterization of Additively Manufactured Part via Multi-Level Stochastic Upscaling Method
+482	548	10	Material Characterization of Additively Manufactured Part via Multi-Level Stochastic Upscaling Method
+2224	2482	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2224	1739	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2224	1397	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2224	2312	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2224	1649	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2482	1739	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2482	1397	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2482	2312	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2482	1649	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+1739	1397	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+1739	2312	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+1739	1649	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+1397	2312	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+1397	1649	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2312	1649	10	Design Optimization of a Solar-Powered Reverse Osmosis Desalination System for Small Communities
+2505	2201	10	Compliant Mechanism Design Using a Strain Based Topology Optimization Method
+2505	1215	10	Compliant Mechanism Design Using a Strain Based Topology Optimization Method
+2505	2256	10	Compliant Mechanism Design Using a Strain Based Topology Optimization Method
+2201	1215	10	Compliant Mechanism Design Using a Strain Based Topology Optimization Method
+2201	2256	10	Compliant Mechanism Design Using a Strain Based Topology Optimization Method
+1215	2256	10	Compliant Mechanism Design Using a Strain Based Topology Optimization Method
+1787	1349	10	Constrained Multi-Objective Wind Farm Layout Optimization: Introducing a Novel Constraint Handling Approach Based on Constraint Programming
+1787	1654	10	Constrained Multi-Objective Wind Farm Layout Optimization: Introducing a Novel Constraint Handling Approach Based on Constraint Programming
+1787	850	10	Constrained Multi-Objective Wind Farm Layout Optimization: Introducing a Novel Constraint Handling Approach Based on Constraint Programming
+1349	1654	10	Constrained Multi-Objective Wind Farm Layout Optimization: Introducing a Novel Constraint Handling Approach Based on Constraint Programming
+1349	850	10	Constrained Multi-Objective Wind Farm Layout Optimization: Introducing a Novel Constraint Handling Approach Based on Constraint Programming
+1654	850	10	Constrained Multi-Objective Wind Farm Layout Optimization: Introducing a Novel Constraint Handling Approach Based on Constraint Programming
+2276	2106	10	An Approach for Uni-Level Reliability Based Design Optimization Using Cross-Entropy Method
+493	1745	10	Creating Faultable Network Models of Complex Engineered Systems
+493	2060	10	Creating Faultable Network Models of Complex Engineered Systems
+1745	2060	10	Creating Faultable Network Models of Complex Engineered Systems
+1096	2189	10	A New Multi-Objective Mixed-Discrete Particle Swarm Optimization Algorithm
+1096	551	10	A New Multi-Objective Mixed-Discrete Particle Swarm Optimization Algorithm
+2189	551	10	A New Multi-Objective Mixed-Discrete Particle Swarm Optimization Algorithm
+1540	686	10	On Using Adaptive Surrogate Modeling in Design for Efficient Fluid Power
+1540	2306	10	On Using Adaptive Surrogate Modeling in Design for Efficient Fluid Power
+1540	3	10	On Using Adaptive Surrogate Modeling in Design for Efficient Fluid Power
+686	2306	10	On Using Adaptive Surrogate Modeling in Design for Efficient Fluid Power
+686	3	10	On Using Adaptive Surrogate Modeling in Design for Efficient Fluid Power
