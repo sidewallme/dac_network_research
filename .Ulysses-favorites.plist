@@ -3,11 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>order</key>
-	<array/>
+	<array>
+		<string>DAC Community Network Analysis.md</string>
+	</array>
 	<key>resolutionData</key>
 	<dict>
 		<key>order</key>
-		<dict/>
+		<dict>
+			<key>DAC Community Network Analysis.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>482192194.46232098</real>
+				<key>version</key>
+				<dict>
+					<key>3d7d54ca5bb70fa1206e1f01388bac779243f246d878e2961ea1cc5d58ce8fb5</key>
+					<integer>11</integer>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>storeFormatVersion</key>
 	<integer>1</integer>
@@ -16,7 +29,7 @@
 		<key>order</key>
 		<dict>
 			<key>3d7d54ca5bb70fa1206e1f01388bac779243f246d878e2961ea1cc5d58ce8fb5</key>
-			<integer>1</integer>
+			<integer>13</integer>
 		</dict>
 	</dict>
 </dict>

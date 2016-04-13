@@ -1,0 +1,29 @@
+### Sample Output
+Pearson's product-moment correlation
+data:  lo-big $ LocusofControl and lo-big $ Psychotherapy
+ t = -2.6452, df = 36, p-value = 0.01202
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.64048847 -0.09611516
+sample estimates:
+   cor 
+-0.4034034
+
+link: [https://statistics.laerd.com/statistical-guides/pearson-correlation-coefficient-statistical-guide.php][1]
+
+### Analysis:
+Pearson's r = -.403 indicates a moderate negative relationship. 
+The P value is smaller than 0.05 and we reject the null hypothesis and conclude that the correlation is negative. 
+
+Pearson's product-moment correlation
+
+data:  lo_small$Locus_of_Control and lo_small$Psychotherapy
+t = 0.42053, df = 35, p-value = 0.6767
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+##  -0.2590669  0.3860537
+## sample estimates:
+##        cor 
+## 0.07090397
+
+[1]:	https://statistics.laerd.com/statistical-guides/pearson-correlation-coefficient-statistical-guide.php
