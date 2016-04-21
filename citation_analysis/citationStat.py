@@ -9,6 +9,8 @@ import sys
 reload(sys)  
 sys.setdefaultencoding('utf-8')
 
+# python citationStat.py DAC_Entire_DataBase.json citationInfo.json
+
 '''
 paper_file = sys.argv[1]
 citation_file = sys.argv[2]
@@ -59,6 +61,8 @@ def normalize(name):
 
 def first_last(name):
   name = normalize(name)
+  if len(name) == 0:
+    return ''
   name_parts = name.split(' ')
   initial = ''.join([x[0] for x in name_parts])
   if len(initial)==1:
@@ -66,6 +70,8 @@ def first_last(name):
   return '{}{}'.format(initial[0],initial[-1])
 
 def is_same_person(c_auth, p_auth):
+  if len(c_auth)*len(p_auth) == 0:
+    return False
   try:
     c_auth.decode('ascii')
     p_auth.decode('ascii')
@@ -103,7 +109,9 @@ def test_self(c_auths, p_auths):
 def test_dac(author, dac_authors):
   same_initial = False
   for da in dac_authors:
-    if first_last(da) == first_last(author):
+    flda = first_last(da)
+    fla = first_last(author)
+    if fla == flda and len(fla)*len(flda)>0:
       same_initial = True
     elif same_initial:
       return False
@@ -122,21 +130,22 @@ def main():
     citations_dict = {c['Title']:c for c in citations}
     all_stats = []
     dac_authors = []
+    dac_titles = [normalize(paper['Title']) for paper in papers]
     print len(papers_dict)
     print len(citations_dict)
-    for title,paper in papers_dict.items():
-      dac_authors.extend(paper['Authors'])
-    dac_authors = list(set(dac_authors))
-    dac_authors = sorted(dac_authors,key=lambda name:first_last(name))
-    json.dump(dac_authors, codecs.open('dac_authors.json','w',encoding='utf-8'),indent=4) 
+    if os.path.exists(os.path.join(os.getcwd(),'dac_authors.json')):
+      dac_authors = json.load(codecs.open('dac_authors.json','r',encoding='utf-8'))
+    else:
+      for title,paper in papers_dict.items():
+        dac_authors.extend(paper['Authors'])
+      dac_authors = list(set(dac_authors))
+      dac_authors = sorted(dac_authors,key=lambda name:first_last(name))
+      json.dump(dac_authors, codecs.open('dac_authors.json','w',encoding='utf-8'),indent=4) 
     #exit(0)
-
     i=0
     for title,paper in papers_dict.items():
       print colored('{} {}'.format(i,title),'red')
       i+=1
-      #if title !="A Fast and Efficient Compact Packing Algorithm for Free-Form Objects":
-        #continue
       try:
         citations = citations_dict[title]['Cited by']
       except KeyError:
@@ -157,8 +166,11 @@ def main():
                 'institutions':{},
                 'authors':[],
                 'total_authors':0,
-                'non_dac_authors':0
-
+                'non_dac_authors':0,
+                'paper_types':[],
+                'num_dac_paper':0,
+                'num_dac_author_paper':0,
+                'num_non_dac_author_paper':0
                 }
               }
       entry['Title'] = title
@@ -178,6 +190,7 @@ def main():
         c_title = citation['title']
         c_year = 0
         c_info = citation['info']
+        c_type = 0 # 0: dac paper, 1: non-dac paper with non-dac authors, 2: non-dac paper with dac author,  
         if len(c_info.keys())>0:
           try:
             c_year = int(c_info['year'])
@@ -214,20 +227,19 @@ def main():
           elif c_inst:
             entry['CitationInfo']['institutions'][c_inst] = entry['CitationInfo']['institutions'][c_inst] + 1 
         entry['CitationInfo']['yearly'][c_year].append(c_title)
+        if normalize(c_title) not in dac_titles:
+          c_type = 1 
         try:
-          
           for author in c_info['author']:
             author = author.strip().decode('UTF-8', errors = 'replace')
+            in_dac = test_dac(author, dac_authors)
+            if in_dac:
+              c_type = min(2,2*c_type)
             if author not in author_list:
               author_list.append(author)
-              in_dac = test_dac(author, dac_authors)
-              #print'\t',
-              #print({author:in_dac})
               entry['CitationInfo']['authors'].append({author:in_dac})
-          citing_authors = entry['CitationInfo']['authors']
-          entry['CitationInfo']['total_authors'] = len(citing_authors)
-          entry['CitationInfo']['non_dac_authors'] = len([x for x in citing_authors if x.values()[0]==False])
-        except Exception:
+          entry['CitationInfo']['paper_types'].append({c_title:c_type})
+        except Exception,e:
           pass
         #print c_year, c_title
         is_self = False
@@ -237,7 +249,17 @@ def main():
           pass
         if is_self:
           entry['CitationInfo']['self'] = entry['CitationInfo']['self'] + 1
-          entry['CitationInfo']['yearly_self'][c_year].append(c_title)
+        entry['CitationInfo']['yearly_self'][c_year].append(c_title)
+      
+      citing_authors = entry['CitationInfo']['authors']
+      entry['CitationInfo']['total_authors'] = len(citing_authors)
+      entry['CitationInfo']['non_dac_authors'] = len([x for x in citing_authors if x.values()[0]==False])
+
+      paper_types = entry['CitationInfo']['paper_types']
+      entry['CitationInfo']['num_dac_paper'] = len([t for t in paper_types if t.values()[0] == 0])
+      entry['CitationInfo']['num_dac_author_paper'] = len([t for t in paper_types if t.values()[0] == 2])
+      entry['CitationInfo']['num_non_dac_author_paper'] = len([t for t in paper_types if t.values()[0] == 1])
+
       keys = entry['CitationInfo']['yearly_self'].keys()
       for k in keys:
         if  len(entry['CitationInfo']['yearly_self'][k]) ==0:
@@ -402,8 +424,11 @@ def output(stat):
 
 
 if __name__ == "__main__":
-  #print is_same_person(sys.argv[1], sys.argv[2])
-  all_stats= main()
+  if len(sys.argv)>3 or not os.path.exists(os.path.join(os.getcwd(),'citationStats.json')):
+    all_stats= main()
+  else:
+    infile = os.path.join(os.getcwd(),'citationStats.json')
+    all_stats = json.load(codecs.open(infile,'r',encoding='utf-8'))
   stat = analyse(all_stats)
   output(stat)
 
